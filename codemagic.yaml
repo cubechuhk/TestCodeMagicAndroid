@@ -23,6 +23,6 @@ workflows:
           # else
           #     UPDATED_BUILD_NUMBER=$(($LATEST_GOOGLE_PLAY_BUILD_NUMBER + 1))
           # fi
-          ./gradlew bundleRelease -PversionCode=1.0.0 -PversionName=1.0.1
+          ./gradlew bundleRelease -PversionCode=1 -PversionName=1.0
     artifacts:
       - app/build/outputs/**/*.aab
