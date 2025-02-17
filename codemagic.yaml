@@ -26,15 +26,3 @@ workflows:
           ./gradlew bundleRelease -PversionCode=1.0.0 -PversionName=1.0.1
     artifacts:
       - app/build/outputs/**/*.aab
-    publishing:
-      # email:
-      # recipients:
-      #   - user_1@example.com
-      #   - user_2@example.com
-      notify:
-        success: true
-        failure: false
-      # google_play:
-      #   credentials: $GCLOUD_SERVICE_ACCOUNT_CREDENTIALS
-      #   track: internal
-      #   submit_as_draft: true
